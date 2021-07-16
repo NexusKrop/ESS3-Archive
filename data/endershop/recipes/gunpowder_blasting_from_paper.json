@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:paper"
+    },
+    "result": "minecraft:gunpowder",
+    "cookingtime": 350,
+    "experience": 5
+}

@@ -1,0 +1,282 @@
+{
+    "type": "minecraft:barter",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:soul_speed"
+                ]
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:soul_speed"
+                ]
+              }
+            ],
+            "name": "minecraft:iron_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              }
+            ],
+            "name": "minecraft:potion"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              }
+            ],
+            "name": "minecraft:splash_potion"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:water\"}"
+              }
+            ],
+            "name": "minecraft:potion"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10.0,
+                  "max": 36.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:iron_nugget"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {"text": "末影珍珠+","color":"red","italic":false}
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "knockback",
+                  "fire_aspect",
+                  "sharpness"
+                ]
+              }
+            ],
+            "name": "minecraft:ender_pearl"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2.0,
+                  "max": 5.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:string"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5.0,
+                  "max": 12.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "name": "minecraft:obsidian"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 3.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:crying_obsidian"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "name": "minecraft:fire_charge"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2.0,
+                  "max": 4.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:leather"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2.0,
+                  "max": 8.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:soul_sand"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2.0,
+                  "max": 8.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:nether_brick"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 6.0,
+                  "max": 12.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:spectral_arrow"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8.0,
+                  "max": 16.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:gravel"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 38,
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{NbtId:101,display:{Name:'{\"text\":\"神秘的烈焰棒\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"这是一根被附魔的烈焰棒，\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"或许能够用来驱散什么？\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"物品编号：101\",\"color\":\"gray\",\"italic\":false}']},Enchantments:[{id:\"minecraft:knockback\",lvl:5s}]}"
+                }
+            ], 
+            "name": "minecraft:blaze_rod"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 42,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {"text": "没用的肉","italic": false,"color": "red"}
+              },
+              {
+                "function": "set_lore",
+                "lore": [{"text": "这片肉已经腐烂，但是似乎可以","color": "gray","italic": false},{"text": "拿来烧？","color": "gray","italic": false}]
+              }
+            ],
+            "name": "minecraft:rotten_flesh"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8.0,
+                  "max": 16.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:blackstone"
+          }
+        ]
+      }
+    ]
+  }

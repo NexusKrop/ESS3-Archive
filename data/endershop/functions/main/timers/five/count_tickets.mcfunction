@@ -1,0 +1,2 @@
+scoreboard players add @a[tag=confirmed,tag=!rat,tag=!banned] tickets 1
+tellraw @a [{"text": "[","color": "dark_gray"},{"text": "福利","color": "gold"},{"text": "] ","color": "dark_gray"},{"text": "基础福利已到账","color": "aqua"}]

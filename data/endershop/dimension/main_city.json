@@ -1,0 +1,33 @@
+{
+    "type": "endershop:main_city",
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "biome": "minecraft:forest",
+            "features": false,
+            "structures": {
+                "structures": {},
+                "stronghold": {
+                    "count": 1,
+                    "distance": 0,
+                    "spread": 0
+                }
+            },
+            "lakes": false,
+            "layers": [
+                {
+                    "block": "minecraft:bedrock",
+                    "height": 5
+                },
+                {
+                    "block": "minecraft:stone",
+                    "height": 58
+                },
+                {
+                    "block": "minecraft:smooth_quartz",
+                    "height": 1
+                }
+            ]
+        }
+    }
+}

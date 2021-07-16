@@ -1,0 +1,2 @@
+gamemode adventure @a[tag=!confirmed,tag=!grant]
+execute as @a[tag=!confirmed] run execute in endershop:main_city unless entity @s[x=227,y=64,z=240,dz=-21,dy=5,dx=-14] run execute in endershop:main_city unless entity @s[x=236,y=64,z=224,distance=..3] run tp @s 220 64 236 facing 220 64 234

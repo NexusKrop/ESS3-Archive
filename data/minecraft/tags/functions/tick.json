@@ -1,0 +1,17 @@
+{
+    "replace": true,
+    "values": [
+        "endershop:main/init",
+        "endershop:main/timers/timer_main",
+        "endershop:user/experience/snowball_spawn",
+        "endershop:user/experience/greetings/timer",
+        "endershop:user/experience/ui/score_display",
+        "endershop:user/experience/ui/information_refresh",
+        "endershop:user/levels/gamemode",
+        "endershop:user/levels/unregistered",
+        "endershop:user/levels/level_management",
+        "endershop:user/levels/level_display",
+        "endershop:user/management/banning",
+        "endershop:user/management/mouse"
+    ]
+}
