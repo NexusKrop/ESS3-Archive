@@ -1,0 +1,34 @@
+{
+    "parent": "endershop:endershop/someone_lives_here",
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": "低配掠夺者",
+        "description": "击败村民和铁傀儡"
+    },
+    "criteria": {
+        "kill_villager": {
+            "trigger": "entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "villager",
+                    "location": {
+                        "feature": "village"
+                    }
+                }
+            }
+        },
+        "kill_iron_golem": {
+            "trigger": "entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type" : "iron_golem",
+                    "location": {
+                        "feature": "village"
+                    }
+                }
+            }
+        }
+    }
+}

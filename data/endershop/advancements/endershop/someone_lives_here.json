@@ -1,0 +1,20 @@
+{
+    "parent": "endershop:endershop/ready_for_connection",
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": "人间烟火",
+        "description": "寻得村庄"
+    },
+    "criteria": {
+        "found_village": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "village"
+                }
+            }
+        }
+    }
+}

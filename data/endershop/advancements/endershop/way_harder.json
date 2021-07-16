@@ -1,0 +1,25 @@
+{
+    "parent": "endershop:endershop/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "title": "更难的生存",
+        "description": "用原木合成台阶，再合成出木板",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "frame": "task"
+    },
+    "criteria": {
+        "get_planks": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:planks"
+                    }
+                ]
+            }
+        }
+    }
+}

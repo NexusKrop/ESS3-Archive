@@ -1,0 +1,62 @@
+{
+    "parent": "endershop:endershop/way_harder",
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title": "全套基础",
+        "description": "取得全部钻石手持工具"
+    },
+    "criteria": {
+        "get_diamond_axe": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:diamond_axe"
+                    ]
+                }]
+            }
+        },
+        "get_diamond_pickaxe": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:diamond_pickaxe"
+                    ]
+                }]
+            }
+        },
+        "get_diamond_shovel": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:diamond_shovel"
+                    ]
+                }]
+            }
+        },
+        "get_diamond_hoe": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:diamond_hoe"
+                    ]
+                }]
+            }
+        },
+        "get_diamond_sword": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:diamond_sword"
+                    ]
+                }]
+            }
+        }
+    }
+}

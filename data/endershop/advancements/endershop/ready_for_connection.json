@@ -1,0 +1,24 @@
+{
+    "parent": "endershop:endershop/establishment",
+    "display": {
+        "icon": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "title": "准备交接",
+        "description": "取得打火石"
+    },
+    "criteria": {
+        "get_flint_and_steel": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:flint_and_steel"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

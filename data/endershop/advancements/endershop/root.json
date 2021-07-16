@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "title": "The-Ess3",
+        "description": "游戏的核心与故事",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": false
+    },
+    "criteria": {
+        "join_game": {
+            "trigger": "tick"
+        }
+    }
+}

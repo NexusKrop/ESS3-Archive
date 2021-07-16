@@ -1,4 +1,4 @@
-title @a actionbar {"text": "房主RC：测试版游戏，后期可能会换档","bold": true}
+title @a actionbar {"text": "去探索，这美好的世界！","bold": true}
 
 #计分板
 scoreboard objectives setdisplay belowName uid
