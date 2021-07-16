@@ -1,0 +1,93 @@
+{
+    "parent": "endershop:endershop/ready_for_connection",
+    "display": {
+        "icon": {
+            "item": "minecraft:seagrass"
+        },
+        "title": "纵横七海",
+        "description": "访问所有的海洋生物群系",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "ocena"
+                }
+            }
+        },
+        "deep_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "deep_ocean"
+                }
+            }
+        },
+        "cold_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "cold_ocean"
+                }
+            }
+        },
+        "lukewarm_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "lukewarm_ocean"
+                }
+            }
+        },
+        "cold_deep_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "deep_cold_ocean"
+                }
+            }
+        },
+        "deep_lukewarm_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "deep_lukewarm_ocean"
+                }
+            }
+        },
+        "frozen_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "frozen_ocean"
+                }
+            }
+        },
+        "deep_frozen_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "deep_frozen_ocean"
+                }
+            }
+        },
+        "warm_cean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "warm_ocean"
+                }
+            }
+        },
+        "deep_warm_ocean": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "biome": "deep_warm_ocean"
+                }
+            }
+        }
+    }
+}

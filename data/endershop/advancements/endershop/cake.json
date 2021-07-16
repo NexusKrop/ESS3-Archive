@@ -1,23 +1,23 @@
 {
-    "parent": "endershop:endershop/establishment",
+    "parent": "endershop:endershop/someone_lives_here",
     "display": {
         "icon": {
-            "item": "minecraft:flint_and_steel"
+            "item": "minecraft:cake"
         },
-        "title": "准备交接",
-        "description": "取得打火石",
+        "title": "蛋糕是个谎言",
+        "description": "制作出蛋糕",
         "announce_to_chat": true,
         "show_toast": true,
         "hidden": false,
         "frame": "task"
     },
     "criteria": {
-        "get_flint_and_steel": {
+        "get_cake": {
             "trigger": "inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:flint_and_steel"
+                        "item": "cake"
                     }
                 ]
             }

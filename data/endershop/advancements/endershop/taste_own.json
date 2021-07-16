@@ -1,0 +1,26 @@
+{
+    "parent": "endershop:endershop/creeper_bow",
+    "display": {
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{Potion:\"minecraft:harming\"}"
+        },
+        "title": "自食其果",
+        "description": "用喷溅药水击伤女巫"
+    },
+    "criteria": {
+        "medicine": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "witch"
+                },
+                "damage": {
+                    "type": {
+                        "is_magic": true
+                    }
+                }
+            }
+        }
+    }
+}

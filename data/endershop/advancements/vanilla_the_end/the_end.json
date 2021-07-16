@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:end/kill_dragon",
+    "display": {
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "title": "离开末地",
+        "description": "还是开始了。",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false,
+        "frame": "task"
+    },
+    "criteria": {
+        "the_end": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "from": "the_end",
+                "to": "overworld"
+            }
+        }
+    }
+}

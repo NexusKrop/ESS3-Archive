@@ -5,7 +5,11 @@
             "item": "minecraft:emerald"
         },
         "title": "人间烟火",
-        "description": "寻得村庄"
+        "description": "寻得村庄",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false,
+        "frame": "task"
     },
     "criteria": {
         "found_village": {

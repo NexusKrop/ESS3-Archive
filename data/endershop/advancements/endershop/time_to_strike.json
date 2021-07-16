@@ -1,23 +1,23 @@
 {
-    "parent": "endershop:endershop/establishment",
+    "parent": "endershop:endershop/mining_time",
     "display": {
         "icon": {
-            "item": "minecraft:flint_and_steel"
+            "item": "minecraft:wooden_sword"
         },
-        "title": "准备交接",
-        "description": "取得打火石",
+        "title": "出击时间到！",
+        "description": "制作一把剑",
         "announce_to_chat": true,
         "show_toast": true,
         "hidden": false,
         "frame": "task"
     },
     "criteria": {
-        "get_flint_and_steel": {
+        "sword": {
             "trigger": "inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:flint_and_steel"
+                        "tag": "endershop:swords"
                     }
                 ]
             }

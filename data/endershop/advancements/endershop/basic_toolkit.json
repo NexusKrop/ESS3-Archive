@@ -1,0 +1,46 @@
+{
+    "parent": "endershop:endershop/mining_time",
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": "集齐套件",
+        "description": "制作出生存三件套",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false,
+        "frame": "task"
+    },
+    "criteria": {
+        "get_crafting_table": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        },
+        "get_furnace": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:furnace"
+                    }
+                ]
+            }
+        },
+        "get_chest": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "chest"
+                    }
+                ]
+            }
+        }
+    }
+}

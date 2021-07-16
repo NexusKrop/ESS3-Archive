@@ -5,7 +5,11 @@
             "item": "minecraft:wooden_sword"
         },
         "title": "低配掠夺者",
-        "description": "击败村民和铁傀儡"
+        "description": "击败村民和铁傀儡",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false,
+        "frame": "task"
     },
     "criteria": {
         "kill_villager": {

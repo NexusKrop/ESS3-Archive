@@ -1,0 +1,27 @@
+{
+    "parent": "endershop:endershop/time_to_strike",
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": "狙击小苦力",
+        "description": "弓箭击败苦力怕",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false,
+        "frame": "task"
+    },
+    "criteria": {
+        "creeper": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "arrow"
+                    },
+                    "is_projectile": true
+                }
+            }
+        }
+    }
+}
