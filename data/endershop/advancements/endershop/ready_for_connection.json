@@ -4,7 +4,7 @@
         "icon": {
             "item": "minecraft:flint_and_steel"
         },
-        "title": "准备交接",
+        "title": "开始连通",
         "description": "取得打火石",
         "announce_to_chat": true,
         "show_toast": true,

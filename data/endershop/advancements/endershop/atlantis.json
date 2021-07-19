@@ -1,0 +1,20 @@
+{
+    "parent": "endershop:endershop/killing_ghast",
+    "display": {
+        "icon": {
+            "item": "minecraft:spruce_log"
+        },
+        "title": "亚特兰蒂斯",
+        "description": "找到一个水下遗迹"
+    },
+    "criteria": {
+        "find_atlantis": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "feature": "ocean_ruin"
+                }
+            }
+        }
+    }
+}

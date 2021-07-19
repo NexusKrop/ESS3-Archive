@@ -1,0 +1,24 @@
+{
+    "parent": "endershop:endershop/pillager",
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": "低买高卖",
+        "description": "以最好的价格交易"
+    },
+    "criteria": {
+        "buy": {
+            "trigger": "villager_trade",
+            "conditions": {
+                "player": {
+                    "effects": {
+                        "hero_of_the_village": {
+                            "visible": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

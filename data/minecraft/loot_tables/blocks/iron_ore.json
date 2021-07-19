@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ore"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:survives_explosion"
+          }
+        ]
+      },
+      {
+          "rolls": 1,
+          "conditions": [
+              {
+                  "condition": "match_tool",
+                  "predicate": {
+                      "nbt": "{NbtId:33301}"
+                  }
+              }
+          ],
+          "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_ingot"
+            }
+          ]
+      }
+    ]
+  }

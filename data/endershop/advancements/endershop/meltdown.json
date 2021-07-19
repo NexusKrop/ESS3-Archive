@@ -1,0 +1,24 @@
+{
+    "parent": "endershop:endershop/taste_own",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe",
+            "nbt": "{Enchantments:[{id:\"silk_touch\"}]}"
+        },
+        "title": "崩解危机",
+        "description": "取得崩解镐"
+    },
+    "criteria": {
+        "get_meltdown": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "iron_pickaxe",
+                        "nbt": "{NbtId:33301}"
+                    }
+                ]
+            }
+        }
+    }
+}

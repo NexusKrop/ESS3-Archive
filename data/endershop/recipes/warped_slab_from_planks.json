@@ -3,7 +3,7 @@
     "group": "planks",
     "ingredients": [
       {
-        "tag": "minecraft:warped_planks"
+        "item": "minecraft:warped_planks"
       }
     ],
     "result": {

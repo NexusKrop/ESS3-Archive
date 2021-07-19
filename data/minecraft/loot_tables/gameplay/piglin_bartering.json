@@ -263,6 +263,28 @@
           },
           {
             "type": "minecraft:item",
+            "weight": 41,
+            "functions": [
+              {
+                "function": "set_nbt",
+                 "tag": "{NbtId:33301}"
+              },
+              {
+                "function": "set_name",
+                "name": {"text": "崩解镐","color": "red","italic": false}
+              },
+              {
+                "function": "enchant_randomly",
+                "enchantments": [
+                  "unbreaking",
+                  "efficiency"
+                ]
+              }
+            ],
+            "name": "iron_pickaxe"
+          },
+          {
+            "type": "minecraft:item",
             "weight": 40,
             "functions": [
               {

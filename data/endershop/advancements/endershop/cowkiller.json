@@ -1,0 +1,22 @@
+{
+    "parent": "endershop:endershop/time_to_strike",
+    "display": {
+        "icon": {
+            "item": "minecraft:leather"
+        },
+        "title": "斗牛士",
+        "description": "取得皮革"
+    },
+    "criteria": {
+        "get_leather": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "leather"
+                    }
+                ]
+            }
+        }
+    }
+}

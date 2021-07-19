@@ -1,0 +1,27 @@
+{
+    "parent": "endershop:endershop/ready_for_connection",
+    "display": {
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "title": "忍杀",
+        "description": "近战击败恶魂"
+    },
+    "criteria": {
+        "kill_ghast": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ghast"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "player"
+                    },
+                    "is_projectile": false,
+                    "is_magic": false
+                }
+            }
+        }
+    }
+}

@@ -3,7 +3,7 @@
     "group": "planks",
     "ingredients": [
       {
-        "tag": "minecraft:crimson_planks"
+        "item": "minecraft:crimson_planks"
       }
     ],
     "result": {
