@@ -1,0 +1,22 @@
+{
+    "parent": "endershop:minecraft_extended/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_salmon"
+        },
+        "title": "美味的鱼儿",
+        "description": "烤点鱼吃"
+    },
+    "criteria": {
+        "cooked_fishes": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "endershop:cooked_fishes"
+                    }
+                ]
+            }
+        }
+    }
+}

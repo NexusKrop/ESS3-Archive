@@ -5,7 +5,8 @@
             "item": "minecraft:fire_charge"
         },
         "title": "忍杀",
-        "description": "近战击败恶魂"
+        "description": "近战击败恶魂",
+        "frame": "challenge"
     },
     "criteria": {
         "kill_ghast": {

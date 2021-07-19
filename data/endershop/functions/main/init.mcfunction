@@ -6,5 +6,7 @@ scoreboard objectives add cache dummy "缓存数据"
 scoreboard objectives add information dummy "信息板"
 
 scoreboard objectives setdisplay sidebar information
+scoreboard players reset §7Relaper-MP出品 information
+scoreboard players set §7Relaper.MP information -10
 
 scoreboard players set @a[tag=auto_dmin] level 5
