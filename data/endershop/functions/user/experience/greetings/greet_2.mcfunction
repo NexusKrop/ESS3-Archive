@@ -1,4 +1,4 @@
-title @a actionbar {"text": "去探索，这美好的世界！","bold": true}
+title @a actionbar {"text": "前往主城兑换积分为绿宝石以免计分板丢失造成损失","bold": true}
 
 #计分板
 scoreboard objectives setdisplay belowName uid

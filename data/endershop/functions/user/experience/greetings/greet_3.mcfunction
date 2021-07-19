@@ -1,4 +1,4 @@
-title @a actionbar {"text": "今天唰物笑嘻嘻，明天抄家哭唧唧","bold": true}
+title @a actionbar {"text": "请注意积分和小游戏非本房间主要玩法（请检查您的进度）","bold": true}
 
 #计分板
 scoreboard objectives setdisplay belowName tickets
