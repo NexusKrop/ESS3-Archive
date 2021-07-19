@@ -2,7 +2,7 @@ scoreboard players set killedItems cache 0
 scoreboard players set killedArrows cache 0
 scoreboard players set killedXps cache 0
 scoreboard players set totalKills cache 0
-execute store result score killedItems cache run kill @e[type=item]
+execute store result score killedItems cache run execute in endershop:main_city run tp @e[type=item] 205 70 300
 execute store result score killedArrows cache run kill @e[type=arrow]
 execute store result score killedXps cache run kill @e[type=experience_orb]
 scoreboard players operation totalKills cache += killedItems cache
