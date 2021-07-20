@@ -1,5 +1,5 @@
 {
-    "parent": "endershop:endershop/ready_for_connection",
+    "parent": "endershop:endershop/horse",
     "display": {
         "icon": {
             "item": "minecraft:emerald"

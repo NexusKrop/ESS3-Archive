@@ -1,0 +1,20 @@
+{
+    "parent": "endershop:endershop/ready_for_connection",
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "title": "千里马",
+        "description": "驯服一匹马"
+    },
+    "criteria": {
+        "horse": {
+            "trigger": "tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "horse"
+                }
+            }
+        }
+    }
+}
