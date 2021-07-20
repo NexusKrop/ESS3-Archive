@@ -12,6 +12,7 @@
         "endershop:user/levels/level_management",
         "endershop:user/levels/level_display",
         "endershop:user/management/banning",
-        "endershop:user/management/mouse"
+        "endershop:user/management/mouse",
+        "endershop:commands/command_root"
     ]
 }
