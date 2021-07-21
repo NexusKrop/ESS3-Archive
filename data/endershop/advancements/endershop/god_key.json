@@ -1,0 +1,24 @@
+{
+    "parent": "endershop:endershop/meltdown",
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": "天神领域",
+        "description": "进入下界的基岩上方",
+        "frame": "goal"
+    },
+    "criteria": {
+        "bedrock": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": 128
+                    },
+                    "dimension": "minecraft:the_nether"
+                }
+            }
+        }
+    }
+}

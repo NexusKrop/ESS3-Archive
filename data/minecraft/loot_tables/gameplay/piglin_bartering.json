@@ -277,7 +277,8 @@
                 "function": "enchant_randomly",
                 "enchantments": [
                   "unbreaking",
-                  "efficiency"
+                  "efficiency",
+                  "fortune"
                 ]
               }
             ],

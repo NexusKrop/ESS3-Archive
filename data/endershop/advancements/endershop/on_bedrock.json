@@ -1,0 +1,69 @@
+{
+    "parent": "endershop:endershop/god_key",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_boots",
+            "nbt": "{Enchantment:[{id:\"minecraft:mending\",lvl:2}],Damage:0}"
+        },
+        "title": "盲目探索",
+        "description": "在基岩之上探索全部下界生物群系",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "minecraft:nether_wastes": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:nether_wastes",
+              "position": {
+                  "y": 128
+              }
+            }
+          }
+        },
+        "minecraft:soul_sand_valley": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:soul_sand_valley",
+              "position": {
+                  "y": 128
+              }
+            }
+          }
+        },
+        "minecraft:warped_forest": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:warped_forest",
+              "position": {
+                  "y": 128
+              }
+            }
+          }
+        },
+        "minecraft:crimson_forest": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:crimson_forest",
+              "position": {
+                  "y": 128
+              }
+            }
+          }
+        },
+        "minecraft:basalt_deltas": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "minecraft:basalt_deltas",
+              "position": {
+                  "y": 128
+              }
+            }
+          }
+        }
+      }
+}

@@ -1,0 +1,21 @@
+{
+    "parent": "endershop:endershop/adventure_sea",
+    "display": {
+        "icon": {
+            "item": "minecraft:tropical_fish"
+        },
+        "title": "深海战斗员",
+        "description": "击败远古守卫者",
+        "frame": "goal"
+    },
+    "criteria": {
+        "fish": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            } 
+        }
+    }
+}

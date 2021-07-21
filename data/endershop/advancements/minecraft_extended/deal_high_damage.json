@@ -12,7 +12,7 @@
             "trigger": "player_hurt_entity",
             "conditions": {
                 "damage": {
-                    "dealt": 18,
+                    "taken": 18,
                     "source_entity": {
                         "type": "player"
                     }
