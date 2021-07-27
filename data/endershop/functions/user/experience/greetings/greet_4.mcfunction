@@ -1,4 +1,4 @@
-title @a actionbar {"text": "游戏玩法还在开发中，不代表最终质量，随时可能删档","bold": true}
+title @a actionbar {"text": "主界亂轉指南針，金鈡半夜竟指陽。村莊生成沙漠殿，無門轉似見閻王。","bold": true}
 
 #计分板
 scoreboard objectives setdisplay belowName tickets

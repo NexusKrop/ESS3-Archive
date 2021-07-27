@@ -4,14 +4,16 @@ scoreboard players set killedXps cache 0
 scoreboard players set killedCobbles cache 0
 scoreboard players set killedBats cache 0
 scoreboard players set killedEggs cache 0
+scoreboard players set killedNetherracks cache 0
 scoreboard players set killedStones cache 0
 scoreboard players set totalKills cache 0
-execute store result score killedItems cache run execute in endershop:main_city run tp @e[type=item,nbt=!{Item:{id:"minecraft:egg"}},nbt=!{Item:{id:"minecraft:cobblestone"}},nbt=!{Item:{id:"minecraft:stone"}},tag=!cleaned] 205 70 300
+execute store result score killedItems cache run execute in endershop:main_city run tp @e[type=item,nbt=!{Item:{id:"minecraft:egg"}},nbt=!{Item:{id:"minecraft:cobblestone"}},nbt=!{Item:{id:"minecraft:stone"}},nbt=!{Item:{id:"minecraft:netherrack"}},tag=!cleaned] 205 70 300
 execute store result score killedStones cache run execute in endershop:main_city run tp @e[type=item,nbt={Item:{id:"minecraft:cobblestone"}},tag=!cleaned] 213 70 308
 execute store result score killedCobbles cache run execute in endershop:main_city run tp @e[type=item,nbt={Item:{id:"minecraft:stone"}},tag=!cleaned] 213 70 308
 execute in endershop:main_city run tag @e[type=item,distance=1..] add cleaned
 kill @e[type=item,tag=!cleaned]
 execute store result score killedEggs cache run kill @e[type=item,nbt={Item:{id:"minecraft:egg"}}]
+execute store result score killedNetherracks cache run kill @e[type=item,nbt={Item:{id:"minecraft:netherrack"}}]
 execute store result score killedArrows cache run kill @e[type=arrow]
 execute store result score killedBats cache run kill @e[type=bat]
 execute store result score killedXps cache run kill @e[type=experience_orb]
