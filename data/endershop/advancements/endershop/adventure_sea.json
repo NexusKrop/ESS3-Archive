@@ -1,5 +1,5 @@
 {
-    "parent": "endershop:endershop/atlantis",
+    "parent": "endershop:endershop/under_sea",
     "display": {
         "icon": {
             "item": "minecraft:seagrass"

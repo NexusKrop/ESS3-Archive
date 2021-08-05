@@ -1,0 +1,22 @@
+{
+    "parent": "endershop:endershop/atlantis",
+    "display": {
+        "icon": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "title": "深海之下",
+        "description": "取得海洋之心"
+    },
+    "criteria": {
+        "heart": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "heart_of_the_sea"
+                    }
+                ]
+            }
+        }
+    }
+}
