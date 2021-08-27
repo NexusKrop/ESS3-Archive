@@ -1,4 +1,4 @@
-title @a actionbar {"text": "房主RC：RelaperStack——創造联机地图制作中","bold": true}
+title @a actionbar {"text": "ESS3 is being reworked on","bold": true}
 
 #计分板
 scoreboard objectives setdisplay belowName tickets

@@ -3,6 +3,7 @@
     "values": [
         "endershop:main/init",
         "endershop:main/timers/timer_main",
+        "endershop:user/experience/welcome",
         "endershop:user/experience/snowball_spawn",
         "endershop:user/experience/greetings/timer",
         "endershop:user/experience/ui/score_display",
@@ -14,6 +15,7 @@
         "endershop:user/levels/level_display",
         "endershop:user/management/banning",
         "endershop:user/management/mouse",
+        "endershop:user/management/uid",
         "endershop:commands/command_root"
     ]
 }

@@ -1,0 +1,3 @@
+execute as @a[tag=!firstJoin,scores={level=0},tag=!confirmed] run tellraw @a [{"text": "[","color": "dark_gray"},{"text": "CraftLink","color": "gold"},{"text": "] ","color": "dark_gray"},{"text":"欢迎新玩家","color": "aqua"},{"selector":"@a[tag=!firstJoin,scores={level=0},tag=!confirmed]","color": "red"},{"text":"！","color": "aqua"}]
+execute as @a[tag=!firstJoin,scores={level=0},tag=!confirmed] run summon firework_rocket ~ ~ ~ {LifeTime:3,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14520541]}]}}}}
+tag @a[tag=!firstJoin] add firstJoin

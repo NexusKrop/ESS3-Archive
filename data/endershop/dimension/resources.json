@@ -7,7 +7,7 @@
         "type": "minecraft:vanilla_layered"
       },
       "seed": 0,
-      "settings": "floating_islands",
+      "settings": "overworld",
       "type": "minecraft:noise"
     }
   }

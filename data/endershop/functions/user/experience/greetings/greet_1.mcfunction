@@ -11,4 +11,7 @@ scoreboard objectives setdisplay belowName playtime
 #scoreboard players reset 列表显示：权限等级
 #scoreboard players reset 列表显示：用户编号
 scoreboard players set 列表显示：无 information -9
-scoreboard objectives setdisplay sidebar deathes
+scoreboard objectives remove deathOnline
+scoreboard objectives add deathOnline dummy "在线玩家死亡榜"
+execute as @a run scoreboard players operation @s deathOnline = @s deathes
+scoreboard objectives setdisplay sidebar deathOnline
