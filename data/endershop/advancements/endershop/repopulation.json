@@ -1,0 +1,20 @@
+{
+    "parent": "endershop:endershop/cowkiller",
+    "display": {
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "title": "种族恢复",
+        "description": "繁殖出一头牛"
+    },
+    "criteria": {
+        "cow": {
+            "trigger": "bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "cow"
+                }
+            }
+        }
+    }
+}

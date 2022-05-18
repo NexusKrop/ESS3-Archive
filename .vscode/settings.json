@@ -2,5 +2,6 @@
     "datapack.env.cmdVersion": "1.16",
     "datapack.env.dataSource": "码云",
     "datapack.env.jsonVersion": "1.16",
-    "datapack.env.dataVersion": "1.16.4"
+    "datapack.env.dataVersion": "1.16.4",
+    "LXLDevHelper.isrunning": false
 }

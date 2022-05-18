@@ -1,19 +1,19 @@
 {
-    "parent": "endershop:minecraft_extended/root",
     "display": {
         "icon": {
-            "item": "minecraft:cooked_salmon"
+            "item": "minecraft:furnace"
         },
-        "title": "美味的鱼儿",
-        "description": "烤点鱼吃"
+        "title": "“热”门话题",
+        "description": "制作一个熔炉"
     },
+    "parent": "endershop:endershop/mining_time",
     "criteria": {
-        "cooked_fishes": {
+        "get_furnace": {
             "trigger": "inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "endershop:cooked_fishes"
+                        "item": "furnace"
                     }
                 ]
             }

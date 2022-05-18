@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "title": "烤面包",
+        "description": "用三个小麦制作一个面包"
+    },
+    "criteria": {
+        "bread": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "bread"
+                    }
+                ]
+            }
+        }
+    }
+}

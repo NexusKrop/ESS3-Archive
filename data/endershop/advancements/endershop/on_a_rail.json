@@ -1,0 +1,18 @@
+{
+    "parent": "endershop:endershop/adventure_sea",
+    "display": {
+        "icon": {
+            "item": "minecraft:rail"
+        },
+        "title": "在铁路上",
+        "description": "用矿车旅行离出发点至少1000格的距离",
+        "hidden": true,
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "onarail": {
+            "trigger": "impossible"
+        }
+    }
+}

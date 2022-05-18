@@ -1,5 +1,5 @@
 {
-    "parent": "endershop:endershop/mining_time",
+    "parent": "endershop:endershop/hot_topic",
     "display": {
         "icon": {
             "item": "minecraft:chest"
